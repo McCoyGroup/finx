@@ -38,7 +38,7 @@
         {%- endcomment -%}
         {%- assign breadcrumb_depth = bread_settings.num_links -%}
         {%- if breadcrumb_depth == nil -%}
-            {%- assign breadcrumb_depth = 10 -%}
+            {%- assign breadcrumb_depth = 3 -%}
         {%- endif -%}
         {%- assign b_crumb_do_link = p_depth|minus:breadcrumb_depth -%}
         {%- comment -%}
